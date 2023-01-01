@@ -40,7 +40,7 @@ namespace Exeception
                     //Console.WriteLine("---------");
                     //Console.WriteLine(ex.StackTrace);//provide a call stack to the line number where exception occured.
                     //Console.ReadLine();
-                }
+                }//
                 else
                 {
                     throw new FileNotFoundException(@"C:\Test\Wr.txt" + "is not found"); //inner exc
